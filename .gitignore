@@ -22,3 +22,14 @@ wheels/
 .vscode/
 venv/
 env/
+.venv/
+
+# Models and weights (large binary files)
+models/
+Qwen3-ASR-0.6B/
+
+# Audio test files
+*.wav
+
+# uv
+uv.lock
